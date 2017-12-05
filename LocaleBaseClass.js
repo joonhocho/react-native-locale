@@ -1,5 +1,5 @@
 import { Platform, NativeModules } from 'react-native';
-const NativeLocale = NativeModules.Locale;
+const NativeLocale = NativeModules.RNLocale;
 const warning = require('fbjs/lib/warning');
 
 class LocaleBaseClass {

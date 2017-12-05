@@ -1,5 +1,5 @@
 import {NativeModules} from 'react-native';
-const NativeLocale = NativeModules.Locale;
+const NativeLocale = NativeModules.RNLocale;
 const LocaleBaseClass = require('./LocaleBaseClass');
 
 class Locale extends LocaleBaseClass {
