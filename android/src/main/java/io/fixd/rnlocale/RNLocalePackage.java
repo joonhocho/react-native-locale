@@ -1,4 +1,4 @@
-package io.fixd.rctlocale;
+package io.fixd.rnlocale;
 
 import android.app.Activity;
 
@@ -13,14 +13,14 @@ import java.util.Collections;
 import java.util.List;
 import java.util.ArrayList;
 
-public class RCTLocalePackage implements ReactPackage {
+public class RNLocalePackage implements ReactPackage {
 
     private Activity mActivity = null;
 
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
-        modules.add(new RCTLocaleModule(reactContext));
+        modules.add(new RNLocaleModule(reactContext));
         return modules;
     }
 

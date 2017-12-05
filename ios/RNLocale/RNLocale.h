@@ -1,6 +1,6 @@
 //
-//  RCTLocale.h
-//  RCTLocale
+//  RNLocale.h
+//  RNLocale
 //
 
 #import <Foundation/Foundation.h>
@@ -12,5 +12,5 @@
     + (NSDateFormatterStyle)NSDateFormatterStyle:(id)json;
 @end
 
-@interface RCTLocale : NSObject <RCTBridgeModule>
+@interface RNLocale : NSObject <RCTBridgeModule>
 @end

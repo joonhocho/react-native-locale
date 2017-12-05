@@ -26,7 +26,7 @@ Please use `0.0.13` for any version of RN before `0.40.0`
 #### iOS
 
 - Link manually
-  - Add RCTLocale.xcodeproj to Libraries and add libRCTLocale.a to Link Binary With Libraries under Build Phases.
+  - Add RNLocale.xcodeproj to Libraries and add libRNLocale.a to Link Binary With Libraries under Build Phases.
 - Cocoapods
   - Add following to your `Podfile`
 
@@ -58,7 +58,7 @@ dependencies {
 ```
 // file: android/app/source/main/java/com/{projectName}.MainApplication.java
 ...
-import io.fixd.rctlocale.RCTLocalePackage;
+import io.fixd.rnlocale.RNLocalePackage;
 ...
 public class MainApplication extends Application implements ReactApplication {
     // ...
@@ -66,7 +66,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-          new RCTLocalePackage() // add package
+          new RNLocalePackage() // add package
       );
     }
 ...

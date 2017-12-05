@@ -1,4 +1,4 @@
-package io.fixd.rctlocale;
+package io.fixd.rnlocale;
 
 import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;
@@ -21,18 +21,18 @@ import java.text.DecimalFormat;
 import java.lang.Long;
 import java.text.SimpleDateFormat;
 
-public class RCTLocaleModule extends ReactContextBaseJavaModule {
+public class RNLocaleModule extends ReactContextBaseJavaModule {
 
     private ReactApplicationContext mContext;
 
-    public RCTLocaleModule(ReactApplicationContext reactContext) {
+    public RNLocaleModule(ReactApplicationContext reactContext) {
         super(reactContext);
         mContext = reactContext;
     }
 
     @Override
     public String getName() {
-        return "RCTLocale";
+        return "RNLocale";
     }
 
     @Override

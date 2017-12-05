@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB248BF51C18396500105A5D /* RCTLocale.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB248BF41C18396500105A5D /* RCTLocale.h */; };
-		DB248BF71C18396500105A5D /* RCTLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = DB248BF61C18396500105A5D /* RCTLocale.m */; };
+		DB248BF51C18396500105A5D /* RNLocale.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB248BF41C18396500105A5D /* RNLocale.h */; };
+		DB248BF71C18396500105A5D /* RNLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = DB248BF61C18396500105A5D /* RNLocale.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,16 +18,16 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				DB248BF51C18396500105A5D /* RCTLocale.h in CopyFiles */,
+				DB248BF51C18396500105A5D /* RNLocale.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DB248BF21C18396500105A5D /* libRCTLocale.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTLocale.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB248BF41C18396500105A5D /* RCTLocale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTLocale.h; sourceTree = "<group>"; };
-		DB248BF61C18396500105A5D /* RCTLocale.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTLocale.m; sourceTree = "<group>"; };
+		DB248BF21C18396500105A5D /* libRNLocale.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNLocale.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB248BF41C18396500105A5D /* RNLocale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNLocale.h; sourceTree = "<group>"; };
+		DB248BF61C18396500105A5D /* RNLocale.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNLocale.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,23 +45,23 @@
 			isa = PBXGroup;
 			children = (
 				DB9768661C183ADA00042D1A /* Products */,
-				DB248BF31C18396500105A5D /* RCTLocale */,
+				DB248BF31C18396500105A5D /* RNLocale */,
 			);
 			sourceTree = "<group>";
 		};
-		DB248BF31C18396500105A5D /* RCTLocale */ = {
+		DB248BF31C18396500105A5D /* RNLocale */ = {
 			isa = PBXGroup;
 			children = (
-				DB248BF41C18396500105A5D /* RCTLocale.h */,
-				DB248BF61C18396500105A5D /* RCTLocale.m */,
+				DB248BF41C18396500105A5D /* RNLocale.h */,
+				DB248BF61C18396500105A5D /* RNLocale.m */,
 			);
-			path = RCTLocale;
+			path = RNLocale;
 			sourceTree = "<group>";
 		};
 		DB9768661C183ADA00042D1A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB248BF21C18396500105A5D /* libRCTLocale.a */,
+				DB248BF21C18396500105A5D /* libRNLocale.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,9 +69,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DB248BF11C18396500105A5D /* RCTLocale */ = {
+		DB248BF11C18396500105A5D /* RNLocale */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB248BF81C18396500105A5D /* Build configuration list for PBXNativeTarget "RCTLocale" */;
+			buildConfigurationList = DB248BF81C18396500105A5D /* Build configuration list for PBXNativeTarget "RNLocale" */;
 			buildPhases = (
 				DB248BEE1C18396500105A5D /* Sources */,
 				DB248BEF1C18396500105A5D /* Frameworks */,
@@ -81,9 +81,9 @@
 			);
 			dependencies = (
 			);
-			name = RCTLocale;
-			productName = RCTLocale;
-			productReference = DB248BF21C18396500105A5D /* libRCTLocale.a */;
+			name = RNLocale;
+			productName = RNLocale;
+			productReference = DB248BF21C18396500105A5D /* libRNLocale.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DB0CBAD51C1831B200168F2E /* Build configuration list for PBXProject "RCTLocale" */;
+			buildConfigurationList = DB0CBAD51C1831B200168F2E /* Build configuration list for PBXProject "RNLocale" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -111,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB248BF11C18396500105A5D /* RCTLocale */,
+				DB248BF11C18396500105A5D /* RNLocale */,
 			);
 		};
 /* End PBXProject section */
@@ -121,7 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB248BF71C18396500105A5D /* RCTLocale.m in Sources */,
+				DB248BF71C18396500105A5D /* RNLocale.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +239,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DB0CBAD51C1831B200168F2E /* Build configuration list for PBXProject "RCTLocale" */ = {
+		DB0CBAD51C1831B200168F2E /* Build configuration list for PBXProject "RNLocale" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB0CBAD61C1831B200168F2E /* Debug */,
@@ -248,7 +248,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB248BF81C18396500105A5D /* Build configuration list for PBXNativeTarget "RCTLocale" */ = {
+		DB248BF81C18396500105A5D /* Build configuration list for PBXNativeTarget "RNLocale" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB248BF91C18396500105A5D /* Debug */,

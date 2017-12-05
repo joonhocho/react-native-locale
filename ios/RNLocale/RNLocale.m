@@ -1,9 +1,9 @@
 //
-//  RCTLocale.m
-//  RCTLocale
+//  RNLocale.m
+//  RNLocale
 //
 
-#import "RCTLocale.h"
+#import "RNLocale.h"
 #import "React/RCTUtils.h"
 
 @implementation RCTConvert (NSDateFormatterStyle)
@@ -16,10 +16,10 @@ RCT_ENUM_CONVERTER(NSDateFormatterStyle, (@{
                                             }), NSDateFormatterFullStyle, integerValue);
 @end
 
-@interface RCTLocale ()
+@interface RNLocale ()
 @end
 
-@implementation RCTLocale
+@implementation RNLocale
 RCT_EXPORT_MODULE();
 
 
